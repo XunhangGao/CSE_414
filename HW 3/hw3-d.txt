@@ -1,0 +1,14 @@
+The Microsoft Azure is more convenient than my own laptop, especially
+when running complicated queries. I tried to run some of the queries of
+this assignment on my own laptop, but it was super slow and I notice that
+the memory is used up to more than 95% sometimes, which was very close 
+to get crasheed. Also, when the data size is huge, we do not have to
+save them on our own devices if we can access to DBMS cloud services
+similar to Azure.
+But Azure is also not perfect, its performence depends on the speed of
+the network. The network in my dorm is not very stable sometimes, leading
+to mulitple times of disconnection on Azure and it showed someting like,
+"unable to connect with the sever".
+I think offering a DBMS in a public cloud service has business potential.
+But the stability and speed of connection and the security can be 
+challenges for this service.

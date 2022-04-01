@@ -1,0 +1,24 @@
+a. 
+R = (A, B, C, D, E)
+Start with "D -> B"
+Then, R1 = D+ = (B, D), R2 = (A, C, D, E)
+As, "CE -> A", R3 = CE+ = (C, E, A), R4 = (C, E, D)
+Thus, we meet a DCNF:
+R1 = (B, D), R3 = (C, E, A), R4 = (C, E, D)
+
+b.
+S = (A, B, C, D, E)
+Start with "A -> E"
+Then, R1 = A+ = (A, E), R2 = (A, B, C, D)
+AS "BC -> A", R3 = BC+ = (B, C, A), R4 = (B, C, D)
+Thus, we meet a DCNF:
+R1 = (A, E), R3 = (B, C, A), R4 = (B, C, D)
+
+c.
+There is only trivial functional dependencies, {}, A -> A, B -> B, C -> C, D -> D
+
+d.
+A -> B, B -> C, C -> D, D -> A
+
+e.
+B -> C, C -> B, A -> BCD, D -> ABC
